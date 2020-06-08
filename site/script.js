@@ -78,7 +78,7 @@ function query() {
 	lead.appendChild(loader)  	
 	Model.results =""
 	m.redraw()
-	let url = "https://gummary.netlify.app/.netlify/functions/api?q=" + Model.input
+	let url = "/.netlify/functions/api?q=" + Model.input
 	fetch(url, {method: 'POST'})
   			.then(r => r.json())
   			.then(data => Model.receive(data.item)) 
