@@ -1,5 +1,5 @@
 * {
-    --bg2:#F8F8FF;    
+    --bg2:#f1fafc;    
     --text:#1c1836;
     --primary:#214761;
     --tertiary:#fff;
@@ -66,7 +66,8 @@ a:hover,
 pre {
     margin: 0 1em 0.4em;
     padding: 0.5em;
-    border-top: solid var(--primary);
+    border: 2px solid #00AFD7;
+    border-radius: 8px;
     text-align: justify;
     color: var(--text);
     background-color: var(--bg2);
